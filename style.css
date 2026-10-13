@@ -85,16 +85,29 @@ nav {
     color: #2D0547;
 }
 
-.test-section {
-  display: flex;
-  flex-direction: column;
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Centre horizontalement les paragraphes dans la page */
+    text-align: center;      /* Centre le texte à l'intérieur des paragraphes */
+    gap: 0.5rem;               /* Crée l'espace parfait entre vos deux lignes */
 }
 
-@media (min-width: 600px) {
-  .test-section {
-    flex-direction: row;
-  }
+/* ÉTAPE INDISPENSABLE : Supprime les marges par défaut des <p> pour libérer le gap */
+footer p {
+    margin: 0;
 }
+
+/*.test-section {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*}*/
+
+/*@media (min-width: 600px) {*/
+/*  .test-section {*/
+/*    flex-direction: row;*/
+/*  }*/
+/*}*/
 
 .galerie {
     display: grid;
