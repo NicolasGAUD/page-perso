@@ -21,12 +21,21 @@ Comme il s'agit d'un site web purement statique (HTML/CSS), il n'y a besoin d'au
 2. Naviguez jusqu'au dossier racine du projet.
 3. Double-cliquez sur le fichier `index.html`. Il s'ouvrira instantanément dans votre navigateur web par défaut.
 
-### Méthode 2 : Via une extension d'éditeur (Recommandé pour le développement)
+### Méthode 2.1 : Via une extension d'éditeur (Recommandé pour le développement)
 Si vous utilisez un éditeur de code comme **Visual Studio Code** :
 1. Ouvrez le dossier du projet dans votre éditeur.
 2. Installez l'extension **Live Server**.
 3. Faites un clic droit sur `index.html` et sélectionnez **"Open with Live Server"**. 
 4. Votre page s'ouvrira et se rechargera automatiquement à chaque modification du code.
+
+5. ### Méthode 2.2 : Via l'éditeur WebStorm (Serveur intégré)
+Si vous utilisez l'EDI **WebStorm** :
+1. Ouvrez le dossier du projet dans WebStorm (`File` > `Open`).
+2. Ouvrez le fichier `index.html` dans l'éditeur.
+3. Survolez avec votre souris le coin supérieur droit de la fenêtre de code : une petite barre d'icônes de navigateurs web (Chrome, Firefox, Edge, etc.) va apparaître.
+5. Cliquez sur le logo du navigateur de votre choix.
+6. WebStorm lancera son serveur web intégré (généralement sur l'adresse `http://localhost:63342/...`) et rechargera automatiquement la page à chaque modification du code.
+
 
 ## 🛠️ Technologies utilisées
 
