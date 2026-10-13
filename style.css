@@ -85,16 +85,16 @@ nav {
     color: #2D0547;
 }
 
-/* .test-section {
+.test-section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 @media (min-width: 600px) {
   .test-section {
     flex-direction: row;
   }
-} */
+}
 
 .galerie {
     display: grid;
